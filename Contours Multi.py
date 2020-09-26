@@ -51,7 +51,7 @@ def getContours(img,imgContour):
                         0.7,(0,255,0),2)
     
 while 1:  
-    # _,img = cap.read()
+    # _,img = cap.read() # for stream input
     
     img = cap.copy()
     imgContour = cap.copy()
